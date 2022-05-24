@@ -1,0 +1,49 @@
+#chatbot-box {
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    height: 500px;
+    width: 700px;
+    padding: 10px;
+    background-color: rgb(54, 54, 54);
+}
+
+.message {
+    border-width: 2px;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    height: relative;
+    min-height: 10px;
+}
+
+.sent {
+    background-color: rgb(241, 235, 235);
+    text-align: left;
+}
+
+.received {
+    background-color: white;
+    text-align: right;
+}
+
+.footer {
+    text-align: inherit;
+    font-weight: lighter;
+    font-size: 10px;
+    position: relative;
+    top:-10px;
+}
+
+.input {
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    height: 20px;
+    width: 700px;
+    padding: 10px;
+    margin-top:10px;
+}
